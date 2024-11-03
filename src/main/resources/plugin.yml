@@ -1,0 +1,16 @@
+name: BlockDisplayExecutor
+version: '1.0.0'
+main: fr.cyberdodo.blockDisplayExecutor.BlockDisplayExecutor
+api-version: '1.21'
+authors: [ Dodo_Report ]
+depend: [NBTAPI]
+commands:
+  executeFunction:
+    description: Executes a .mcfunction file to spawn block displays.
+    usage: /executeFunction <functionName>
+  giveCustomEgg:
+    description: Donne un œuf de fonction personnalisé au joueur.
+    usage: /giveCustomEgg
+  importFunction:
+    description: Importe un fichier .mcfunction dans le dossier de fonctions.
+    usage: /importFunction <functionName>
